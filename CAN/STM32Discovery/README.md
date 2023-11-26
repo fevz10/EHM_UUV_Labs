@@ -1,1 +1,1 @@
-# EHM_UUV_Labs
+# STM32 CAN Communication Sample Code

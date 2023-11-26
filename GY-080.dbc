@@ -1,0 +1,62 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: STM32Discovery
+
+
+BO_ 2566852658 BMP085: 8 STM32Discovery
+ SG_ BMP085_Temperature : 32|32@1+ (0.1,0) [0|0] ""  STM32Discovery
+ SG_ BMP085_Pressure : 0|32@1- (1,0) [0|0] ""  STM32Discovery
+
+BO_ 2566852657 MC5883L: 6 STM32Discovery
+ SG_ MC5883L_raw_Z : 32|16@1- (1,0) [0|0] ""  STM32Discovery
+ SG_ MC5883L_raw_Y : 16|16@1- (1,0) [0|0] ""  STM32Discovery
+ SG_ MC5883L_raw_X : 0|16@1- (1,0) [0|0] ""  STM32Discovery
+
+BO_ 2566852656 ADXL345: 6 STM32Discovery
+ SG_ ADXL345_raw_Z : 32|16@1- (1,0) [0|0] ""  STM32Discovery
+ SG_ ADXL345_raw_Y : 16|16@1- (1,0) [0|0] ""  STM32Discovery
+ SG_ ADXL345_raw_X : 0|16@1- (1,0) [0|0] ""  STM32Discovery
+
+
+
+CM_ BO_ 2566852658 "BMP085 Barometric Pressure Sensor TX MSG";
+CM_ BO_ 2566852657 "MC5883L 3-Axis Digital Compass TX MSG";
+CM_ BO_ 2566852656 "ADXL345 Accelerometer TX MSG";
+BA_DEF_  "MultiplexExtEnabled" ENUM  "No","Yes";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "MultiplexExtEnabled" "No";
+BA_DEF_DEF_  "BusType" "CAN";
+

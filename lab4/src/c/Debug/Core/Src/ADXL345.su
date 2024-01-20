@@ -1,0 +1,4 @@
+../Core/Src/ADXL345.c:15:6:ADXL345_Write	32	static
+../Core/Src/ADXL345.c:23:6:ADXL345_Read_Values	32	static
+../Core/Src/ADXL345.c:28:6:ADXL345_Read_Address	32	static
+../Core/Src/ADXL345.c:33:6:ADXL345_Init	8	static

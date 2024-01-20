@@ -1,0 +1,9 @@
+../Core/Src/BMP085.c:39:9:BMP085_Read8	1
+../Core/Src/BMP085.c:47:10:BMP085_Read16	1
+../Core/Src/BMP085.c:57:6:BMP085_Write8	1
+../Core/Src/BMP085.c:65:9:BMP085_Init	3
+../Core/Src/BMP085.c:93:9:computeB5	1
+../Core/Src/BMP085.c:100:10:BMP085_ReadRawTemperature	1
+../Core/Src/BMP085.c:107:10:BMP085_ReadRawPressure	4
+../Core/Src/BMP085.c:131:7:BMP085_ReadTemperature	1
+../Core/Src/BMP085.c:145:9:BMP085_ReadPressure	3

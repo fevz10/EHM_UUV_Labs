@@ -1,0 +1,10 @@
+../Core/Src/MPU6050.c:19:6:MPU6050_Writebyte	1
+../Core/Src/MPU6050.c:24:6:MPU6050_Writebytes	1
+../Core/Src/MPU6050.c:29:6:MPU6050_Readbyte	1
+../Core/Src/MPU6050.c:34:6:MPU6050_Readbytes	1
+../Core/Src/MPU6050.c:39:6:MPU6050_Initialization	2
+../Core/Src/MPU6050.c:120:6:MPU6050_Get6AxisRawData	1
+../Core/Src/MPU6050.c:136:6:MPU6050_Get_LSB_Sensitivity	9
+../Core/Src/MPU6050.c:171:6:MPU6050_DataConvert	1
+../Core/Src/MPU6050.c:186:5:MPU6050_DataReady	1
+../Core/Src/MPU6050.c:211:6:MPU6050_ProcessData	1

@@ -1,0 +1,2 @@
+../Core/Src/BT.c:20:6:extractIntegersFromCharArray	40	static
+../Core/Src/BT.c:44:6:BT_RxData	56	dynamic

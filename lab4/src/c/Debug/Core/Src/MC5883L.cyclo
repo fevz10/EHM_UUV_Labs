@@ -1,0 +1,4 @@
+../Core/Src/MC5883L.c:16:6:MC5883L_Write	1
+../Core/Src/MC5883L.c:24:6:MC5883L_Read_Values	1
+../Core/Src/MC5883L.c:29:6:MC5883L_Read_Address	1
+../Core/Src/MC5883L.c:34:6:MC5883L_Init	1
